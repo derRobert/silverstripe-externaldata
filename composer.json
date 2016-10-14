@@ -1,5 +1,5 @@
 {
-    "name": "axyr/silverstripe-externaldata",
+    "name": "derrobert/silverstripe-externaldata",
     "description": "Custom DataObject/ModelAdmin implementation to work with external data sources",
     "type": "silverstripe-module",
     "keywords": ["silverstripe", "external data", "module", "cms", "crud", "modeladmin"],

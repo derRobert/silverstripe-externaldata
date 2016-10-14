@@ -13,14 +13,14 @@
  * @see RestDataObject
  */
 class ExternalRestDataObject extends ExternalDataObject {
-	
-	static $db = array(
+
+    private static $db = array(
 		'Title'	=> 'Varchar(255)',
 		'Name'	=> 'Varchar(255)',
 		'Email'	=> 'Varchar(255)'
 	);
-	
-	static $summary_fields = array(
+
+    private static $summary_fields = array(
 		'Title'	=> 'Title',
 		'Name'	=> 'Name',
 		'Email'	=> 'Email'

@@ -28,8 +28,8 @@
  *
  */
 abstract class ExternalDataObject extends ArrayData implements ExternalDataInterface {
-	
-	static $db = array('ID' => 'Varchar');
+
+    private static $db = array('ID' => 'Varchar');
 	
 	private $changed;
 	protected $record;

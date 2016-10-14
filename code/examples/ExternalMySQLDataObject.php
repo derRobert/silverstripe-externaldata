@@ -14,14 +14,14 @@
 class ExternalMySQLDataObject extends ExternalDataObject {
 	
 	public static $insert_id = 0;
-	
-	static $db = array(
+
+    private static $db = array(
 		'Title'	=> 'Varchar(255)',
 		'Name'	=> 'Varchar(255)',
 		'Email'	=> 'Varchar(255)'
 	);
-	
-	static $summary_fields = array(
+
+    private static $summary_fields = array(
 		'Title'	=> 'Title',
 		'Name'	=> 'Name',
 		'Email'	=> 'Email'
@@ -32,7 +32,7 @@ class ExternalMySQLDataObject extends ExternalDataObject {
 	/**
 	 * remote mysql database connection
 	 **/
-	static $remote_database_config = array(
+    private static $remote_database_config = array(
 		"type" => 'MySQLDatabase',
 		"server" => 'localhost',
 		"username" => '',
