@@ -506,5 +506,9 @@ abstract class ExternalDataObject extends ArrayData implements ExternalDataInter
 		
 		return $this;
 	}
+
+	public function has_one() {
+	    return false;
+    }
 	
 }
